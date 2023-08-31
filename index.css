@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
+
+/* Header Styles */
 
 .container {
     background-color: rgb(2, 45, 98);
@@ -33,7 +36,6 @@
 
 .navlinks li {
     display: inline-block;
-    position: relative;
 
 }
 
@@ -77,5 +79,124 @@
     transform: translateY(-10%);
     left: 100%;
     margin-left: 5px;
+}
 
+/* BODY STYLES */
+
+.body{
+    background-color: #fff;
+}
+.emptydiv{
+    height: 500px;
+}
+.txt{
+    background-color: rgb(7, 62, 129);
+    display: inline-block;
+    margin: 0 60px 0;
+}
+.txt h2{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: rgb(217, 237, 252);
+    padding: 10px 60px 20px 20px;
+}
+.text{
+    float: right;
+    margin: 0 60px 0;
+    
+}
+.text h2{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: rgb(12, 59, 117);
+    padding: 10px 60px 0px 20px;
+}
+
+.forum{
+    background-color: rgb(7, 62, 129);
+}
+
+.newslatter h4{
+   color: #fff; 
+}
+.collapse{
+    margin: 0px 40px 0px;
+}
+.newslatter img{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.newslatter{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+.trendy{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+/* FOOTER STYLES */
+
+.footer_section{
+    background-color:  rgb(2, 45, 98);
+}
+.footer-top{
+    margin: 0 30px 0;
+}
+.logos{
+    margin-top: 40px;
+}
+.logos img{
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.social-links{
+    float: right;
+    margin-right: 30px;
+    padding-left: 20px;
+    margin-top: -30px;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 10px
+
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(235, 235, 250);
+}
+.footer_sec{
+    margin: 20px 40px 0;
+}
+.footer_sec li{
+    list-style: none;
+}
+.foot-col{
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 120px;
+    margin-left: 0px;
+}
+.footer_sec li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+.write-up{
+    color: rgb(68, 68, 241);
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+.footer_copyright{
+    margin-top: 50px;
+}
+.footer_copyright p{
+    color: rgb(121, 121, 216) ;
+    text-align: center;
+    letter-spacing: 2px;
 }
