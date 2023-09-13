@@ -4,6 +4,16 @@
     border: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+::after{
+    box-sizing: border-box;
+}
+::before{
+    box-sizing: border-box;
+}
 
 /* Header Styles */
 
@@ -89,10 +99,14 @@
 .emptydiv{
     height: 500px;
 }
+
+.column{
+    margin-top: 30vh;
+}
 .txt{
     background-color: rgb(7, 62, 129);
     display: inline-block;
-    margin: 0 60px 0;
+    margin: 0 40px 0;
 }
 .txt h2{
     font-size: 1.6rem;
@@ -102,7 +116,7 @@
 }
 .text{
     float: right;
-    margin: 0 60px 0;
+    margin: 0 40px 0;
     
 }
 .text h2{
@@ -199,4 +213,6 @@
     color: rgb(121, 121, 216) ;
     text-align: center;
     letter-spacing: 2px;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
